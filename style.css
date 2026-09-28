@@ -249,28 +249,3 @@ a {
     border-radius: 16px 16px 0 0;
 }
 
-@media (max-width: 900px) {
-    .site-container {
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            "header"
-            "main"
-            "sidebar"
-            "footer";
-    }
-
-    .gallery-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .header {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .gallery-grid {
-        grid-template-columns: 1fr;
-    }
-}
